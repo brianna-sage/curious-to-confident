@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From Curious to Confident</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Marcellus', serif;
+      margin: 0;
+      background-color: rgba(220, 240, 255, 0.1);
+      color: #2d2d2d;
+    }
+    header {
+      background-color: #fdecef;
+      padding: 2rem 1rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.7rem;
+      color: #bd1e5d;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #5e2a3f;
+      max-width: 700px;
+      margin: 1rem auto 0;
+    }
+    nav {
+      background-color: #fff4f8;
+      padding: 1rem 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      border-top: 2px solid #f7d3df;
+      border-bottom: 2px solid #f7d3df;
+    }
+    nav .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    nav .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 180px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+      z-index: 1;
+    }
+    nav .dropdown-content a {
+      display: block;
+      padding: 0.75rem 1rem;
+      text-align: left;
+      text-decoration: none;
+      color: #bd1e5d;
+    }
+    nav .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    nav a {
+      text-decoration: none;
+      color: #bd1e5d;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .relevance {
+      background-color: #fff7f9;
+      border-top: 2px solid #e6a4b4;
+      padding: 2rem 1.5rem;
+      max-width: 850px;
+      margin: 2rem auto;
+      border-radius: 10px;
+    }
+    .relevance h2 {
+      color: #bd1e5d;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .relevance p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-top: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      text-decoration: none;
+      padding: 2rem;
+      color: #2d2d2d;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .infancy { background-color: #fcd2e2; }
+    .early-childhood { background-color: #ffe8c2; }
+    .pre-adolescence { background-color: #d0e9ff; }
+    .adolescence { background-color: #e6dcff; }
+
+    .extras {
+      background-color: #ffffff;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 2rem auto;
+      border-top: 2px solid #ccc;
+    }
+    .extras h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+      color: #2d2d2d;
+    }
+    .extras ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .extras a {
+      text-decoration: none;
+      background-color: #f4f9ff;
+      padding: 1rem 1.5rem;
+      border-left: 4px solid #6f4dbb;
+      border-radius: 6px;
+      font-size: 1rem;
+      color: #2d2d2d;
+      display: block;
+    }
+    .extras a:hover {
+      background-color: #e4f0fb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>From Curious to Confident</h1>
+    <p>A developmentally-informed guide for parents navigating their child’s sexual development—age by age, stage by stage.</p>
+  </header>
+
+  <nav>
+    <div class="dropdown">
+      <a href="index.html">Home ▾</a>
+      <div class="dropdown-content">
+        <a href="infancy.html">Infancy (0–2)</a>
+        <a href="early-childhood.html">Early Childhood (3–7)</a>
+        <a href="pre-adolescence.html">Pre-Adolescence (8–12)</a>
+        <a href="adolescence.html">Adolescence (13–18)</a>
+      </div>
+    </div>
+    <a href="sexual-education-checklist.html">Checklist</a>
+    <a href="parental-self-reflection.html">Self-Reflection</a>
+    <a href="references.html">References</a>
+  </nav>
+
+  <section class="relevance">
+    <h2>Why This Matters</h2>
+    <p>Every child is a sexual being from birth, and how we respond to their curiosity, questions, and development shapes their sense of safety, shame, and self-worth. Many parents want to do the right thing—but aren’t sure how. That’s why we created this guide.</p>
+    <p>Research shows that the more children know about their bodies, relationships, consent, and media influence, the more likely they are to make healthy choices. In fact, as one expert put it: <em>“Every piece of research I have seen suggests that the less kids know about sex, the more likely they are to experiment with it.”</em></p>
+    <p>Sexual education isn’t one big talk—it’s a lifelong conversation. And you, as a parent, are the most powerful teacher your child will ever have. Let’s begin where they are, and grow with them—one age, one question, one open moment at a time.</p>
+  </section>
+
+  <section class="grid">
+    <a href="infancy.html" class="card infancy">Infancy (0–2)<br><span style="font-weight: normal;">Where curiosity begins</span></a>
+    <a href="early-childhood.html" class="card early-childhood">Early Childhood (3–7)<br><span style="font-weight: normal;">Wonder, questions, & emerging awareness</span></a>
+    <a href="pre-adolescence.html" class="card pre-adolescence">Pre-Adolescence (8–12)<br><span style="font-weight: normal;">Changes, curiosity, & confidence</span></a>
+    <a href="adolescence.html" class="card adolescence">Adolescence (13–18)<br><span style="font-weight: normal;">Respect, responsibility, & resilience</span></a>
+  </section>
+
+  <section class="extras">
+    <h2>📘 Continue the Conversation</h2>
+    <ul>
+      <li><a href="sexual-education-checklist.html">📋 Checklist: 10 Sexual Education Essentials Before Adulthood</a></li>
+      <li><a href="parental-self-reflection.html">🧠 Parental Self-Reflection</a></li>
+      <li><a href="references.html">📚 References</a></li>
+    </ul>
+  </section>
+</body>
+</html>
