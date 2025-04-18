@@ -24,6 +24,46 @@
       margin: 0;
       font-size: 2.5rem;
     }
+    nav {
+      background-color: #fff0f5;
+      padding: 1rem 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      border-top: 2px solid #f7c4da;
+      border-bottom: 2px solid #f7c4da;
+    }
+    nav .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    nav .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 180px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+      z-index: 1;
+    }
+    nav .dropdown-content a {
+      display: block;
+      padding: 0.75rem 1rem;
+      text-align: left;
+      text-decoration: none;
+      color: #b84772;
+    }
+    nav .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    nav a {
+      text-decoration: none;
+      color: #b84772;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
     main {
       padding: 2rem;
       max-width: 850px;
@@ -71,6 +111,22 @@
   <header>
     <h1>Infancy (0–2 Years)</h1>
   </header>
+
+  <nav>
+    <div class="dropdown">
+      <a href="index.html">Home ▾</a>
+      <div class="dropdown-content">
+        <a href="infancy.html">Infancy (0–2)</a>
+        <a href="early-childhood.html">Early Childhood (3–7)</a>
+        <a href="pre-adolescence.html">Pre-Adolescence (8–12)</a>
+        <a href="adolescence.html">Adolescence (13–18)</a>
+      </div>
+    </div>
+    <a href="sexual-education-checklist.html">Checklist</a>
+    <a href="parental-self-reflection.html">Self-Reflection</a>
+    <a href="references.html">References</a>
+  </nav>
+
   <main>
     <section>
       <h2>Overview</h2>
@@ -79,12 +135,9 @@
 
     <section>
       <h2>Body Discovery & Sexual Development</h2>
-      <p>Infants naturally explore their bodies—including genitals—as part of healthy sensory development. This is not sexual in an adult sense but is part of how they experience the world.They may begin to explore through touching themselves or others. This is completely normal and part of healthy development.
-
-</p>
-      <div class="tip">💡 <strong>Parental Tip:</strong> Parental Tip: If a child is openly touching themselves, say, “That’s something we do in private.” It’s important to use a calm, shame-free tone. It’s also normal for them to be curious!</div>
+      <p>Infants naturally explore their bodies—including genitals—as part of healthy sensory development. This is not sexual in an adult sense but is part of how they experience the world. They may begin to explore through touching themselves or others. This is completely normal and part of healthy development.</p>
+      <div class="tip">💡 <strong>Parental Tip:</strong> If a child is openly touching themselves, say, “That’s something we do in private.” It’s important to use a calm, shame-free tone. It’s also normal for them to be curious!</div>
       <div class="moment">👨‍👩‍👧 <strong>Real-life Teaching Moment:</strong> During diaper changes or baths, say things like, “This is your vulva,” or “This is your penis.” These simple moments normalize accurate language.</div>
-    </section>
     </section>
 
     <section>
@@ -97,7 +150,7 @@
     <section>
       <h2>Sexual Knowledge, Safety & Consent</h2>
       <p>While they may not understand sex, infants begin building trust and emotional safety. This lays the groundwork for future conversations about healthy intimacy and connection.</p>
-      <div class="tip">💡 <strong>Parental Tip:</strong> Start now with body-positive messaging. Speak with comfort and calm around topics like private parts and physical closeness.
+      <div class="tip">💡 <strong>Parental Tip:</strong> Start now with body-positive messaging. Speak with comfort and calm around topics like private parts and physical closeness.</div>
       <div class="moment">👨‍👩‍👧 <strong>Real-life Teaching Moment:</strong> When your child pulls down your shirt in public or grabs your body, say calmly, “That’s a private part of my body. We keep private parts covered.”</div>
     </section>
 
@@ -113,4 +166,3 @@
   </main>
 </body>
 </html>
-
